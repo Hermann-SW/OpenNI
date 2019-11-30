@@ -99,15 +99,9 @@ Linux:
 		   From: http://freeglut.sourceforge.net/index.php#download
 		   Or via apt:
 		   sudo apt-get install freeglut3-dev
-		5) JDK 6.0
-		   From: http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u32-downloads-1594644.html
-		   Or via apt:
-		     Ubuntu 10.x:				
-		       sudo add-apt-repository "deb http://archive.canonical.com/ lucid partner"
-		       sudo apt-get update
-		       sudo apt-get install sun-java6-jdk
-		     Ubuntu 12.x:				
-		       sudo apt-get install openjdk-6-jdk
+		5) JDK 8.0
+		   Via apt:
+		     sudo apt-get install openjdk-8-jdk
 
 		   
 	Optional Requirements (To build the documentation):
