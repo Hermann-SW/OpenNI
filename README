@@ -104,7 +104,7 @@ Linux:
 		     sudo apt-get install openjdk-8-jdk
 
 		   
-	Optional Requirements (To build the documentation):
+	Further Requirements (To build the documentation and don't break script):
 		1) Doxygen
 		   From: http://www.stack.nl/~dimitri/doxygen/download.html#latestsrc
 		   Or via apt:
