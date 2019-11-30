@@ -1,3 +1,9 @@
+fork-mission-statement
+----------------------
+This fork is for building OpenNI on a Raspberry in 2019.
+Several changes are needed, and I use git to keep track.
+Continue with "Linux:" instructions.
+
 OpenNI (Version 1.5.4.0 - May 7th 2012)
 ---------------------------------------
 
@@ -121,6 +127,8 @@ Linux:
 		   sudo apt-get install mono-complete
 		   
 	Building OpenNI:
+		0) sudo mkdir /usr/include/gnu
+		   sudo touch /usr/include/gnu/stubs-soft.h
 		1) Go into the directory: "Platform/Linux/CreateRedist".
 		   Run the script: "./RedistMaker".
 		   This will compile everything and create a redist package in the "Platform/Linux/Redist" directory.
