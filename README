@@ -1,6 +1,6 @@
 fork-mission-statement
 ----------------------
-This fork is for building OpenNI on a Raspberry in 2019.
+This fork is for building OpenNI on a Raspberry (Buster) in 2019.
 Several changes are needed, and I use git to keep track.
 Continue with "Linux:" instructions.
 
@@ -127,7 +127,7 @@ Linux:
 		   Run the script: "./RedistMaker".
 		   This will compile everything and create a redist package in the "Platform/Linux/Redist" directory.
 		   It will also create a distribution in the "Platform/Linux/CreateRedist/Final" directory.
-		2) Go into the directory: "Platform/Linux/Redist".
+		2) Go into the directory: "Platform/Linux/Redist/OpenNI-Bin-Dev-Linux-Arm-v1.5.7.10".
 		   Run the script: "sudo ./install.sh" (needs to run as root)
 
   		   The install script copies key files to the following location:
